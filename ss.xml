@@ -42,4 +42,7 @@
   <opt name="Цена" currency="€">160</opt>
 </options>
 </msg>
+<msg ...>
+1
+</msg>
 </items>
