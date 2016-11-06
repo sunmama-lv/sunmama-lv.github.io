@@ -1,12 +1,11 @@
-//Одежда, обувь : Женская одежда : Одежда для беременных
 <?xml version="1.0" encoding="UTF-8"?>
 <items>
 <main>
-*<user_id>599661</user_id>
-*<msg_count>1</msg_count>
+<user_id>599661</user_id>
+<msg_count>1</msg_count>
 </main>
 <msg category="/clothes-footwear/womens-clothes/maternity-clothes/" sid="Продают" internal_id="tanzania">
-*<text>Настоящий пуховик для беременных "Танзания", цвет: тёмно-синий. 
+<text>Настоящий пуховик для беременных "Танзания", цвет: тёмно-синий. 
 <br><br>
 Утеплитель: 100% лебяжий пух. 
 <br><br>
@@ -20,10 +19,10 @@
 <br><br>
 Чтобы увидеть другие модели и расцветки, пройдите по ссылке "посмотреть" под номером телефона.
 </text>
-*<phones>+37127445059; +37127403123</phones>
+<phones>+37127445059; +37127403123</phones>
   <email>sunmama.lv@gmail.com</email>
   <url>https://sunmama-lv.github.io/zima.html</url>
-*<images>
+<images>
 <imgs>https://sunmama-lv.github.io/images/product-details/tanzania01.jpg</imgs>
 <imgs>https://sunmama-lv.github.io/images/product-details/tanzania02.jpg</imgs>
 <imgs>https://sunmama-lv.github.io/images/product-details/tanzania03.jpg</imgs>
@@ -33,7 +32,7 @@
 <options>
   <opt name="Производитель">ТМ I Love Mum</opt>
   <opt name="Размер">M</opt>
-*<opt name="Местонахождение">Рига</opt>
+<opt name="Местонахождение">Рига</opt>
   <opt name="Район города, волость">Центр</opt>
   <opt name="Состояние">нов.</opt>
 <!--
@@ -43,13 +42,4 @@
   <opt name="Цена" currency="€">160</opt>
 </options>
 </msg>
-<msg ...>
-1
-</msg>
-
-Внимание!
-
-В пределах одного XML файла значение internal_id должно быть уникальным.
-
-
 </items>
