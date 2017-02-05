@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lv">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>SunMama | Заказ и доставка</title>
+    <title>SunMama | Islandija pejsli uz smilškrāsas</title>
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -25,9 +26,7 @@
 </head><!--/head-->
 
 <body>
-								<!--<li><a href="cart.html">Cart</a></li> 
-										<li><a href="login.html">Login</a></li> -->
-       <header id="header"><!--header-->
+<header id="header"><!--header-->
 		<div class="header_top"><!--header_top-->
 			<div class="container">
 				<div class="row">
@@ -36,17 +35,19 @@
 							<ul class="nav nav-pills">
 								<li><a href="#"><i class="fa fa-phone"></i> +371 27445059</a></li>
 								<li><a href="mailto:sunmama.lv@gmail.com"><i class="fa fa-envelope"></i> sunmama.lv@gmail.com</a></li>
+								<li><a><strong> LV</strong></a></li>
 								
-								<li><a href="lv-zakaz_dostavka.html"><strong> LV</strong></a></li>
-								<li><a><strong> RU</strong></a></li>
-								
+								<li><a href="zakaz_dostavka.html"><strong> RU</strong></a></li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-sm-6">
+					<div class="col-sm-4">
+                    
+                    </div>
+					<div class="col-sm-2">
 						<div class="social-icons pull-right">
 							<ul class="nav navbar-nav">
-								<li><a href="https://www.facebook.com/sunmama.lv/"><i class="fa fa-facebook">acebook</i></a></li>
+								<li><a href="https://www.facebook.com/sunmama.lv"><i class="fa fa-facebook">acebook</i></a></li>
 								<li><a href="https://www.instagram.com/sunmama.lv.riga/"><i class="fa fa-instagram fa fa-linkedin" aria-hidden="true"> Instagram</i></a></li>
 							</ul>
 						</div>
@@ -55,7 +56,6 @@
 			</div>
 		</div><!--/header_top-->
 		
-	
 		<div class="header-bottom"><!--header-bottom-->
 			<div class="container">
 				<div class="row">
@@ -70,17 +70,16 @@
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a href="index.html"><i class="fa fa-home"></i> Домой</a></li><!--УБРАЛ  class="active"-->
-								<li class="dropdown"><a href="#"><i class="fa fa-tag">
-                                </i> Категории товаров<i class="fa fa-angle-down"></i></a>
+								<li><a href="lv-index.html"><i class="fa fa-home"></i> Sākums</a></li><!--УБРАЛ  class="active"-->
+								<li class="dropdown"><a href="#"><i class="fa fa-tag"></i> Katalogs<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
-                                    	<li><a href="demi.html">Демисезонные куртки</a></li>
-										<li><a href="zima.html">Зимние куртки</a></li> 
-										<li><a href="ergo.html">Эргорюкзаки</a></li>
+                                    	<li><a href="lv-demi.html">Demisezonas jakas</a></li>
+										<li><a href="lv-zima.html">Ziemas jakas</a></li> 
+										<li><a href="lv-ergo.html">Ergosomas</a></li>
 		                             </ul>
-								<li><a href="zakaz_dostavka.html"><i class="fa fa-shopping-cart"></i> Заказ и доставка</a></li>
-                                </li> 
-								<li><a href="contact-us.html"><i class="fa fa-phone-square"></i> Контакты</a></li>
+                                </li>
+								<li><a href="lv-zakaz_dostavka.html"><i class="fa fa-shopping-cart"></i> Pasūtījums un piegāde</a></li>
+								<li><a href="lv-contact-us.html"><i class="fa fa-phone-square"></i> Kontakti</a></li>
 							</ul>
 						</div>
 					</div>
@@ -92,28 +91,30 @@
 			</div>
 		</div><!--/header-bottom-->
 	</header><!--/header-->
-	 
 	<section>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-3">
 					<div class="left-sidebar">
-						<h2>КАТЕГОРИИ</h2>
+						<h2>KATEGORIJAS</h2>
 						<div class="panel-group category-products" id="accordian"><!--category-productsr-->
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h4 class="panel-title">
 										<a data-toggle="collapse" data-parent="#accordian" href="#sportswear">
 											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
-											Куртки для беременных
+											Jakas grūtniecēm
 										</a>
 									</h4>
 								</div>
 								<div id="sportswear" class="panel-collapse collapse">
 									<div class="panel-body">
 										<ul>
-											<li><a href="beremennie_demi.html">Демисезонные</a></li>
-											<li><a href="beremennie_zima.html">Зимние</a></li>
+											<li><a href="lv-beremennie_demi.html">Demisezonas</a></li>
+											<li><a href="lv-beremennie_zima.html">Ziemas</a></li>
+										<!--<li><a href="#">Adidas </a></li>
+											<li><a href="#">Puma</a></li>
+											<li><a href="#">ASICS </a></li>-->
 										</ul>
 									</div>
 								</div>
@@ -123,34 +124,43 @@
 									<h4 class="panel-title">
 										<a data-toggle="collapse" data-parent="#accordian" href="#mens">
 											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
-											Слингокуртки
+											Slinga jakas
 										</a>
 									</h4>
 								</div>
 								<div id="mens" class="panel-collapse collapse">
 									<div class="panel-body">
 										<ul>
-											<li><a href="slingokurtki_demi.html">Демисезонные</a></li>
-											<li><a href="slingokurtki_zima.html">Зимние</a></li>
+											<li><a href="lv-slingokurtki_demi.html">Demisezonas</a></li>
+											<li><a href="lv-slingokurtki_zima.html">Ziemas</a></li>
+										<!--<li><a href="#">Valentino</a></li>
+											<li><a href="#">Dior</a></li>
+											<li><a href="#">Versace</a></li>
+											<li><a href="#">Armani</a></li>
+											<li><a href="#">Prada</a></li>
+											<li><a href="#">Dolce and Gabbana</a></li>
+											<li><a href="#">Chanel</a></li>
+											<li><a href="#">Gucci</a></li>-->
 										</ul>
 									</div>
 								</div>
 							</div>
+							
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h4 class="panel-title">
 										<a data-toggle="collapse" data-parent="#accordian" href="#womens">
 											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
-											Эргорюкзаки
+											Ergosomas
 										</a>
 									</h4>
 								</div>
 								<div id="womens" class="panel-collapse collapse">
 									<div class="panel-body">
 										<ul>
-											<li><a href="vse_svoe.html">Всё своё</a></li>
-											<li><a href="cveti_chern.html">Цветы чёрный</a></li>
-											<li><a href="cveti_oranz.html">Цветы оранжевый</a></li>
+											<!--<li><a href="vse_svoe.html">Всё своё</a></li>
+											<li><a href="cveti_chern.html">Цветы чёрный</a></li>-->
+											<li><a href="lv-cveti_oranz.html">"Ziedi" oranžs</a></li>
 										</ul>
 									</div>
 								</div>
@@ -160,34 +170,34 @@
 				</div>
 				<div class="col-sm-9">
 					<div class="blog-post-area">
-						<h2 class="title text-center">Заказ и доставка</h2>
+						<h2 class="title text-center">Pasūtījums un piegāde</h2>
                         
                         <!--хлебные крошки-->
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="breadcrumbs">
-                                    <a class="path" href="https://sunmama-lv.github.io/">Главная</a>
+                                    <a class="path" href="https://sunmama-lv.github.io/lv-index.html">Sākums</a>
                                     <img src="images/design/bult.png" alt="">
-                                    <a class="path" >Заказ и доставка</a>
+                                    <a class="path" >Pasūtījums un piegāde</a>
                                 </div>
                             </div>
                         </div>
                 
 						<div class="single-blog-post">
-							<h3>Как заказать</h3>
-							<p>Чтобы:
-                            <br>– заказать понравившийся товар 
-                            <br>– получить информацию об имеющихся в наличии размерах 
-                            <br>– задать любой возникший вопрос 
-                            <br>просто напишите нам: <a href="mailto:sunmama.lv@gmail.com">sunmama.lv@gmail.com</a></p>
+							<h3>KĀ PASŪTĪT</h3>
+							<p>Lai:
+                            <br>– pasūtītu vēlamo preci; 
+                            <br>– saņemtu informāciju par pieejamiem izmēriem;
+                            <br>– uzdotu jebkuru jautājumu, 
+                            <br>rakstiet mums: <a href="mailto:sunmama.lv@gmail.com">sunmama.lv@gmail.com</a></p>
 <!--							<a  class="btn btn-primary" href="">Read More</a>
 -->						</div>
 						<div class="single-blog-post">
-							<h3>Оплата и доставка</h3>
-							<p>– после подтверждения заказа, мы договоримся о встрече для примерки и покупки.
-                            <br>– приобрести понравившийся товар Вы можете непосредственно после примерки. В этом случае предполагается оплата наличными.
-                            <br>– по Вашему желанию мы можем выслать товар пакоматами по их расценкам (Omniva, PastaStacija). 
-                            В этом случае необходима предоплата стоимости товара и пересылки. Деньги перечисляются на расчетный счет.</p>
+							<h3>APMAKSA UN PIEGĀDE</h3>
+							<p>– pēc pasūtījuma apstiprināšanas mēs sarunāsim tikšanos, lai pielaikotu un iegādātos pirkumu;
+                            <br>– iegādāties vēlamo preci Jūs varat uzreiz pēc pielaikošanas. Šajā gadījumā tiek paredzēta apmaksa skaidrā naudā;
+                            <br>– ja Jūs vēlaties, varam nosūtīt preci ar pakomātu starpniecību (Omniva, PastaStacija), ņemot vērā pakalpojuma cenu. 
+                            Šajā gadījumā nepieciešama priekšapmaksa par preci un tās pārsūtīšanu. Maksājums tiek veikts ar bankas pārskaitījumu.</p>
 <!--							<a  class="btn btn-primary" href="">Read More</a>
 -->						</div>
 <!--						<div class="pagination-area">
@@ -211,7 +221,7 @@
 					<div class="col-sm-2">
 						<div class="companyinfo">
 							<h2><span>Sun</span>Mama</h2>
-							<p align="right" >Мы предлагаем стильные и удобные куртки для беременных и слингокуртки в Риге и во всех странах Балтии.</p>
+							<p align="right" >Mēs piedāvājam ļoti modernas, stilīgas un ērtas jakas grūtniecēm un slinga jakas Rīgā un visās Baltijas valstīs.</p>
 						</div>
 					</div>
 					
@@ -233,7 +243,7 @@
 				<div class="row">
 					<p class="pull-left">Copyright © 2016 SunMama. All rights reserved.</p>
 					<p class="pull-right">Designed by <span><a>SunMama</a></span></p>
-					<p class="pull-left">Ресурс предназначен исключительно для сбора маркетинговых данных о популярности представленных товаров.</p>	
+					<p class="pull-left">***Resurss ir domāts tikai priekš mārketinga datu vākšanas par noteiktās preces popularitāti.</p>	
 				</div>
 			</div>
 		</div>
