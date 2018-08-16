@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: http://www.sunmama-lv.github.io/sitemap.xml
