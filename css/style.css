@@ -1,0 +1,17 @@
+.imageBox img {
+-webkit-transition: .5s;
+-moz-transition: .5s;
+-ms-transition: .5s;
+-o-transition: .5s;
+transition: .5s;	
+}
+
+.imageBox:hover img {
+-webkit-transform: scale(1.2) rotate(-10deg);
+-moz-transform: scale(1.2) rotate(-10deg);
+-ms-transform: scale(1.2) rotate(-10deg);
+-o-transform: scale(1.2) rotate(-10deg);
+transform: scale(1.2) rotate(-10deg);
+-ms-filter:grayscale();
+filter: grayscale(.75);
+}
