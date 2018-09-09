@@ -6,6 +6,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>SunMama | Зимние слингокуртки </title>
+        <style>
+        .imageBox {
+            transform: scale(1);
+            transition: transform 0.5s;
+            }
+        .imageBox:hover { 
+            transform: scale(1.08);
+            transition: transform 0.5s;
+            }
+        </style>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -13,10 +23,6 @@
     <link href="css/animate.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->       
     <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
@@ -25,8 +31,6 @@
 </head><!--/head-->
 
 <body>
-								<!--<li><a href="cart.html">Cart</a></li> 
-										<li><a href="login.html">Login</a></li> -->
        <header id="header"><!--header-->
 		<div class="header_top"><!--header_top-->
 			<div class="container">
@@ -46,10 +50,6 @@
 							<ul class="nav navbar-nav">
 								<li><a href="https://www.facebook.com/sunmama.lv/"><i class="fa fa-facebook">acebook</i></a></li>
 								<li><a href="https://www.instagram.com/sunmama.lv.riga/"><i class="fa fa-instagram fa fa-linkedin" aria-hidden="true"> Instagram</i></a></li>
-							<!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
 							</ul>
 						</div>
 					</div>
@@ -57,51 +57,7 @@
 			</div>
 		</div><!--/header_top-->
 		
-	<!--<div class="header-middle"><!--header-middle-->
-		<!--<div class="container">
-				<div class="row">
-					<div class="col-sm-4">
-						<div class="logo pull-left">
-							<a href="index.html"><img src="images/home/logo.jpg" alt="" /></a>
-						</div>
-						<div class="btn-group pull-right">
-							<div class="btn-group">
-								<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
-									Latvija
-									<span class="caret"></span>
-								</button>
-						<!--	<ul class="dropdown-menu">
-									<li><a href="#">Canada</a></li>
-									<li><a href="#">UK</a></li>
-								</ul> -->
-						<!--</div>
-							
-							<div class="btn-group">
-								<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
-									EUR
-									<span class="caret"></span>
-								</button>
-						<!--	<ul class="dropdown-menu">
-									<li><a href="#">Canadian Dollar</a></li>
-									<li><a href="#">Pound</a></li>
-								</ul> -->
-						<!--</div>
-						</div>
-					</div>
-					<div class="col-sm-8">
-						<div class="shop-menu pull-right">
-							<ul class="nav navbar-nav">
-							<!--<li><a href="#"><i class="fa fa-user"></i> Account</a></li>
-								<li><a href="#"><i class="fa fa-star"></i> Wishlist</a></li>
-								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
-								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
-								<li><a href="login.html"><i class="fa fa-lock"></i> Login</a></li>-->
-						<!--</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!--/header-middle-->
+
 	
 		<div class="header-bottom"><!--header-bottom-->
 			<div class="container">
@@ -127,20 +83,12 @@
 		                             </ul>
 								<li><a href="zakaz_dostavka.html"><i class="fa fa-shopping-cart"></i> Заказ и доставка</a></li>
                                 </li> 
-				<!--			<li class="dropdown"><a href="#">Блог<i class="fa fa-angle-down"></i></a>
-                                    <ul role="menu" class="sub-menu">
-                                        <li><a href="blog.html">Blog List</a></li>
-										<li><a href="blog-single.html">Blog Single</a></li>
-                                    </ul>
-                                </li> -->
-							<!--<li><a href="404.html">404</a></li>-->
 								<li><a href="contact-us.html"><i class="fa fa-phone-square"></i> Контакты</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="search_box pull-right">
-						<!--<input type="text" placeholder="Поиск"/>-->
 						</div>
 					</div>
 				</div>
@@ -148,101 +96,7 @@
 		</div><!--/header-bottom-->
 	</header><!--/header-->
 	
-<!--<section id="slider"><!--slider-->
-	<!--<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<div id="slider-carousel" class="carousel slide" data-ride="carousel">
-						<ol class="carousel-indicators">
-							<li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
-							<li data-target="#slider-carousel" data-slide-to="1"></li>
-							<li data-target="#slider-carousel" data-slide-to="2"></li>
-                            <li data-target="#slider-carousel" data-slide-to="3"></li>
-                            <li data-target="#slider-carousel" data-slide-to="4"></li>
-						</ol>
-						
-						<div class="carousel-inner">
-							<div class="item active">
-								<div class="col-sm-6">
-									<h1><span>Акция!</span> Слингокуртки</h1>
-									<h3>Демисезонные куртки "Челси"</h3>
-									<p>Для беременности и слингоношения<br><br>
-                                    Три расцветки:<br>- Шоколад/цветы<br>- Коралл<br>- Ласточки/синий </p>
-									<a href="#akcija01"><button type="button" class="btn btn-default get">Перейти к описанию</button></a>
-								</div>
-								<div class="col-sm-6">
-									<img src="images/home/rasprodaza001.jpg" class="girl img-responsive" alt="" />
-								<!--	<img src="images/home/pricing.png"  class="pricing" alt="" /> -->
-		<!--					</div>
-							</div>
-							<div class="item">
-								<div class="col-sm-6">
-									<h1><span>New!</span> Куртки</h1>
-									<h3>Демисезонные куртки "Симона" и "Женева"</h3>
-									<p>Для беременности и повседневной жизни<br><br> 
-                                    Две расцветки:<br>- Цветы на голубом<br>- Синий<br> </p>
-									<a href="#novinki01"><button type="button" class="btn btn-default get" >Перейти к описанию</button></a>
-								</div>
-								<div class="col-sm-6">
-									<img src="images/home/novinki001.jpg" class="girl img-responsive" alt="" />
-							<!--		<img src="images/home/pricing.png"  class="pricing" alt="" /> -->
-			<!--				</div>
-							</div>
-							
-							<div class="item">
-								<div class="col-sm-6">
-									<h1><span>New!</span> Слингокуртки</h1>
-									<h3>Демисезонные куртки "Челси"</h3>
-									<p>Для беременности и слингоношения<br><br>
-                                    Три расцветки:<br>- Вензель/синий<br>- Нэви<br>- Мозаика/синий. </p>
-									<a href="#novinki02"><button type="button" class="btn btn-default get">Перейти к описанию</button></a>
-								</div>
-								<div class="col-sm-6">
-									<img src="images/home/novinki002.jpg" class="girl img-responsive" alt="" />
-							<!--		<img src="images/home/pricing.png" class="pricing" alt="" /> -->
-				<!--			</div>
-							</div>
-                            
-                            <div class="item">
-								<div class="col-sm-6">
-									<h1><span>Sun</span>Mama</h1>
-									<h2>Free Ecommerce Template</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									<button type="button" class="btn btn-default get">Перейти к описанию</button>
-								</div>
-								<div class="col-sm-6">
-									<img src="images/home/girl3.jpg" class="girl img-responsive" alt="" />
-							<!--		<img src="images/home/pricing.png" class="pricing" alt="" /> -->
-					<!--		</div>
-							</div>
-                            
-                            <div class="item">
-								<div class="col-sm-6">
-									<h1><span>Sun</span>Mama</h1>
-									<h2>Free Ecommerce Template</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									<button type="button" class="btn btn-default get">Перейти к описанию</button>
-								</div>
-								<div class="col-sm-6">
-									<img src="images/home/girl3.jpg" class="girl img-responsive" alt="" />
-							<!--		<img src="images/home/pricing.png" class="pricing" alt="" /> -->
-						<!--	</div>
-							</div>
-							
-						</div>
-						
-						<a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
-							<i class="fa fa-angle-left"></i>
-						</a>
-						<a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
-							<i class="fa fa-angle-right"></i>
-						</a>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-	</section><!--/slider-->
+
 	
 	<section>
 		<div class="container">
@@ -325,24 +179,7 @@
                             </div>
                         </div>
                 
-						
-                        <!--<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center panel panel-default">
-										<a href="gerda_ohra.html">
-                                        <img src="images/home/gerda_ohra.jpg" alt="Герда охра" 
-                                        title="Герда охра" /></a>
-										<h2>110€</h2>
-										<p>Зимняя, 3в1<br>"Герда", Охра</p>
-										<a href="gerda_ohra.html" class="btn btn-default add-to-cart">
-                                    	<i class="fa fa-info-circle"></i>Подробнее...</a>
-									</div>
-								</div>
-							</div>
-						</div>-->
-                        
-                        <div class="col-sm-4">
+                        <div class="imageBox col-sm-4">
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center panel panel-default">
@@ -358,7 +195,7 @@
 							</div>
 						</div>
                        
-                        <div class="col-sm-4">
+                        <div class="imageBox col-sm-4">
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center panel panel-default">
@@ -374,7 +211,7 @@
 							</div>
 						</div>
 
-                        <div class="col-sm-4">
+                        <div class="imageBox col-sm-4">
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center panel panel-default">
@@ -389,7 +226,7 @@
 								</div>
 							</div>
 						</div>
-                        <div class="col-sm-4">
+                        <div class="imageBox col-sm-4">
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center panel panel-default">
@@ -405,38 +242,6 @@
 							</div>
 						</div>
                         
-						<!--<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center panel panel-default">
-										<a href="sandra_temno_sin.html">
-                                        <img src="images/home/sandra_temno_sin.jpg" alt="Сандра тёмно синий" 
-                                        title="Сандра тёмно синий"/></a>
-										<h2 style="color:#B9B9B9; font-style:italic;">нет в наличии</h2>
-										<p>Зимняя, 2в1<br>"Сандра", тёмно-синий</p>
-										<a href="sandra_temno_sin.html" class="btn btn-default add-to-cart">
-                                        <i class="fa fa-info-circle"></i>Подробнее...</a>
-									</div>
-								</div>
-							</div>
-						</div>-->
-                        
-						<!--<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center panel panel-default">
-										<a href="selena_zelt_oranz.html">
-                                        <img src="images/home/selena_zelt_orandz.jpg" alt="Селена желто-оранжевый" 
-                                        title="Селена желто-оранжевый" /></a>
-										<h2>100€</h2>
-										<p>Зимняя, 3в1<br>"Селена", жёлто-оранжевый</p>
-										<a href="selena_zelt_oranz.html" class="btn btn-default add-to-cart">
-                                    	<i class="fa fa-info-circle"></i>Подробнее...</a>
-									</div>
-								</div>
-							</div>
-						</div>-->
-						
 					</div><!--features_items-->
 				</div>
 			</div>
